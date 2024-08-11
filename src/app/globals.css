@@ -1,3 +1,65 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.data-table-text {
+  width: 100%;
+  text-align: center;
+}
+
+.btn-green,
+.btn-green:hover {
+  background-color: #78c2ad; /* Use specific color as no CSS variable is defined for this */
+  color: var(--skin-light-primary);
+  border-radius: 5px;
+}
+
+.page-item.disabled .page-link {
+  background-color: #78c2ad; /* Use specific color as no CSS variable is defined for this */
+  color: var(--skin-light-primary);
+}
+
+.page-link.arrow-left,
+.page-link.arrow-right,
+.page-link.arrow-right:focus,
+.page-link.arrow-left:focus {
+  background-color: #78c2ad; /* Use specific color as no CSS variable is defined for this */
+  color: var(--skin-light-primary);
+}
+
+.btn-pink,
+.btn-pink:hover {
+  background-color: #e83e8c; /* Use specific color as no CSS variable is defined for this */
+  color: var(--skin-light-primary);
+  border-radius: 5px;
+}
+
+.btn-coral,
+.btn-coral:hover {
+  background-color: #f3969a; /* Use specific color as no CSS variable is defined for this */
+  color: var(--skin-light-primary);
+  border-radius: 5px;
+}
+
+.btn-orange,
+.btn-orange:hover {
+  background-color: #fd7e14; /* Use specific color as no CSS variable is defined for this */
+  color: var(--skin-light-primary);
+  border-radius: 5px;
+}
+
+.icons-react {
+  margin-bottom: 12px;
+}
+
+.icon-btn {
+  height: 35px;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: var(--skin-light-primary);
+  background-color: #f3969a; /* Use specific color as no CSS variable is defined for this */
+  border-color: transparent;
+}

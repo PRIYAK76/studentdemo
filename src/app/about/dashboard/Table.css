@@ -1,0 +1,112 @@
+/* src/App.css */
+.App {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+
+body {
+    background-color: var(--skin-light-primary);
+    color: var(--skin-dark-primary);
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: var(--skin-dark-secondary);
+    color: var(--skin-light-primary);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--skin-dark-primary);
+}
+
+.heading {
+    text-align: center;
+}
+
+.data-table-text {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-green,
+.btn-green:hover {
+    background-color: #78c2ad;
+    /* Use specific color as no CSS variable is defined for this */
+    color: var(--skin-light-primary);
+    border-radius: 5px;
+}
+
+.page-item.disabled .page-link {
+    background-color: #78c2ad;
+    /* Use specific color as no CSS variable is defined for this */
+    color: var(--skin-light-primary);
+}
+
+.page-link.arrow-left,
+.page-link.arrow-right,
+.page-link.arrow-right:focus,
+.page-link.arrow-left:focus {
+    background-color: #78c2ad !important;
+    /* Use specific color as no CSS variable is defined for this */
+    color: var(--skin-light-primary);
+}
+
+.btn-pink,
+.btn-pink:hover {
+    background-color: #e83e8c;
+    /* Use specific color as no CSS variable is defined for this */
+    color: var(--skin-light-primary);
+    border-radius: 5px;
+}
+
+.btn-coral,
+.btn-coral:hover {
+    background-color: #f3969a;
+    /* Use specific color as no CSS variable is defined for this */
+    color: var(--skin-light-primary);
+    border-radius: 5px;
+}
+
+.btn-orange,
+.btn-orange:hover {
+    background-color: #fd7e14;
+    /* Use specific color as no CSS variable is defined for this */
+    color: var(--skin-light-primary);
+    border-radius: 5px;
+}
+
+.icons-react {
+    margin-bottom: 12px;
+}
+
+.icon-btn {
+    height: 35px;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: var(--skin-light-primary);
+    background-color: #f3969a !important;
+    /* Use specific color as no CSS variable is defined for this */
+    border-color: transparent !important;
+}
